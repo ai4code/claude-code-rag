@@ -1,0 +1,82 @@
+{
+    "meta": {
+        "fileKey": "string",
+        "pageId": "string",
+        "componentId": "string",
+        "componentName": "string",
+        "type": "COMPONENT_SET | COMPONENT | FRAME",
+        "version": "1.0.0",
+        "exportTime": "2026-06-26T00:00:00Z"
+    },
+    "size": {
+        "width": 320,
+        "height": 80
+    },
+    "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 80
+    },
+    "styles": {
+        "background": [
+            "#ffffff"
+        ],
+        "borderRadius": 8,
+        "border": {
+            "stroke": "#e5e7eb",
+            "strokeWidth": 1
+        },
+        "boxShadow": "0 2px 8px rgba(0,0,0,0.08)"
+    },
+    "layout": {
+        "layoutMode": "HORIZONTAL",
+        "paddingTop": 12,
+        "paddingRight": 16,
+        "paddingBottom": 12,
+        "paddingLeft": 16,
+        "itemSpacing": 10,
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER"
+    },
+    "children": [
+        {
+            "nodeId": "xxx",
+            "nodeType": "FRAME | TEXT | RECTANGLE | ICON",
+            "nodeName": "prefix-icon",
+            "size": {
+                "width": 20,
+                "height": 20
+            },
+            "position": {
+                "x": 16,
+                "y": 30
+            },
+            "data": {
+                "svgContent": "<svg></svg>"
+            }
+        },
+        {
+            "nodeId": "xxx",
+            "nodeType": "TEXT",
+            "nodeName": "title-text",
+            "content": "按钮文字",
+            "fontSize": 14,
+            "fontWeight": 500,
+            "fontFamily": "Inter",
+            "color": "#1f2937",
+            "lineHeight": 20
+        }
+    ],
+    "props": {
+        "variant": "primary | default | danger",
+        "disabled": false,
+        "state": "normal | hover | active"
+    },
+    "tokens": {
+        "colorBg": "--color-bg-primary",
+        "colorText": "--color-text-default",
+        "radiusMd": "--radius-md"
+    },
+    "vectorEmbeddingText": "组件名称:按钮组件,布局:横向弹性布局,内边距上下12左右16,圆角8,包含图标+文字,主色背景,hover带阴影,文字字号14中等字重"
+}

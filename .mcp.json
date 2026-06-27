@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+        "ai4code-rag": {
+            "command": "bun",
+            "args": [
+                "packages/ai4code-rag/src/mcp-server.ts"
+            ]
+        }
+    }
+}
