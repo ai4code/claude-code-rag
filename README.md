@@ -2,6 +2,7 @@
 
 ## 通过mcp方式接入自定义的组件库 
 <img src="./asset/rag.png">
+<img src="./asset/rag-2.png">
 
 ### 生成代码的效果
 ```tsx
