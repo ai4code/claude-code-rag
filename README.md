@@ -3,6 +3,7 @@
 - step 1 通过mcp方式接入自定义的组件库 
 <img src="./asset/rag.png">
 
+## 生成代码的效果
 ```tsx
  import { AForm, AInput, AButton } from '@ai4code/ui'
   import { useLoginForm } from '@ai4code/ui/form'
