@@ -1,9 +1,9 @@
-#  基于开源claude code best 学习
+#  基于开源claude code best 
 
-- step 1 通过mcp方式接入自定义的组件库 
+## 通过mcp方式接入自定义的组件库 
 <img src="./asset/rag.png">
 
-## 生成代码的效果
+### 生成代码的效果
 ```tsx
  import { AForm, AInput, AButton } from '@ai4code/ui'
   import { useLoginForm } from '@ai4code/ui/form'
