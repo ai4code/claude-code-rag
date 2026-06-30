@@ -72,7 +72,7 @@
   ▎
 ``` 
 
-### agent Loop
+## Agent Loop
 
 `Agent Loop 就是思考→行动→观察→再思考的无限迭代闭环，让大模型摆脱单次问答，自动完成多步骤复杂任务，是所有自主智能体（AutoGPT、ReAct、Toolformer）的底层骨架`
 
