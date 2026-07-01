@@ -467,7 +467,7 @@ AgentID：DataExportAgent-v1.2
 4. 是否遵循流水线顺序，有无跳步操作
 ```
 #### 示例 -使用自己的组件库开发一个登录页面
-```md
+```
 【META元数据】
 AgentID：CustomComponentLoginPageAgent-v1.0
 业务域：前端登录页面快速生成、基于内部自研组件库开发
